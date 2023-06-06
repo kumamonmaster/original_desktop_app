@@ -6,4 +6,4 @@ def access_to_yahoo():
     URL = 'https://www.yahoo.co.jp/'
     response = requests.get(URL)
 
-    return response
+    return response.text
